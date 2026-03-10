@@ -17,13 +17,7 @@ class VoiceWidget extends StatefulWidget {
   final Decoration? decoration;
 
   /// startRecord 开始录制回调  stopRecord回调
-  const VoiceWidget(
-      {Key? key,
-      this.startRecord,
-      this.stopRecord,
-      this.height,
-      this.decoration,
-      this.margin})
+  const VoiceWidget({Key? key, this.startRecord, this.stopRecord, this.height, this.decoration, this.margin})
       : super(key: key);
 
   @override
@@ -68,8 +62,7 @@ class _VoiceWidgetState extends State<VoiceWidget> {
       if (data.msg == "onStop") {
         ///结束录制时会返回录制文件的地址方便上传服务器
         print("onStop  " + data.path!);
-        if (widget.stopRecord != null)
-          widget.stopRecord!(data.path, data.audioTimeLength);
+        if (widget.stopRecord != null) widget.stopRecord!(data.path, data.audioTimeLength);
       } else if (data.msg == "onStart") {
         print("onStart --");
         if (widget.startRecord != null) widget.startRecord!();
@@ -150,7 +143,7 @@ class _VoiceWidgetState extends State<VoiceWidget> {
           ),
         );
       });
-      Overlay.of(context)!.insert(overlayEntry!);
+      Overlay.of(context).insert(overlayEntry!);
     }
   }
 

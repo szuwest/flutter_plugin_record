@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/westdeng/Documents/software/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/westdeng/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/westdeng/Documents/workspace/flutter_plugin_record/example/android/app/.cxx/Debug/39644l1y/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/westdeng/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/westdeng/Documents/workspace/flutter_plugin_record/example/android/app/.cxx/Debug/39644l1y/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

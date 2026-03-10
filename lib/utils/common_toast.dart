@@ -58,7 +58,7 @@ class CommonToast {
           ),
         );
       });
-      Overlay.of(context!)!.insert(overlayEntry!);
+      Overlay.of(context!).insert(overlayEntry!);
       if (onTap != null) return;
       Timer.periodic(duration, (timer) {
         _count++;

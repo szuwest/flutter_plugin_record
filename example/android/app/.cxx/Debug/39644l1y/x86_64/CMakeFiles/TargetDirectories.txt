@@ -1,0 +1,2 @@
+/Users/westdeng/Documents/workspace/flutter_plugin_record/example/android/app/.cxx/Debug/39644l1y/x86_64/CMakeFiles/edit_cache.dir
+/Users/westdeng/Documents/workspace/flutter_plugin_record/example/android/app/.cxx/Debug/39644l1y/x86_64/CMakeFiles/rebuild_cache.dir
